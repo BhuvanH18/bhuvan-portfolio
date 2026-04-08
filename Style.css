@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0a0a0a;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-bottom: 2px solid #e62429;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar h2 {
+  color: #e62429;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #e62429;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1511512578047-dfb367046420');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  color: #e62429;
+}
+
+.hero h2 {
+  font-size: 28px;
+}
+
+.hero p {
+  color: #ccc;
+  font-size: 18px;
+}
+
+.hero-buttons {
+  margin-top: 25px;
+}
+
+button {
+  background-color: #e62429;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff3b3f;
+  transform: scale(1.05);
+}
+
+.section-title {
+  text-align: center;
+  color: #e62429;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.about-section,
+.skills-section,
+.projects-section,
+.contact-section {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.about-section p {
+  max-width: 800px;
+  margin: auto;
+  color: #ccc;
+  font-size: 18px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill-card,
+.project-card {
+  background-color: #141414;
+  border: 1px solid #e62429;
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 0 15px rgba(230, 36, 41, 0.3);
+}
+
+.project-card {
+  margin: 20px auto;
+}
+
+.contact-section {
+  background-color: #111;
+}

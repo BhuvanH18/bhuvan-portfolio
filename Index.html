@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+      <body>
+
+  <div class="navbar">
+    <h2>Bhuvan H</h2>
+
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <section class="hero" id="home">
+    <div class="hero-overlay">
+      <h1>I Am Bhuvan</h1>
+      <h2>Future Developer • Tech Enthusiast • Marvel Fan</h2>
+      <p>
+        Coding my own future, one project at a time.
+      </p>
+
+      <div class="hero-buttons">
+        <button onclick="scrollToSection('about')">About Me</button>
+        <button onclick="scrollToSection('projects')">My Projects</button>
+        <button onclick="showMarvelMessage()">Avengers Mode</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I am Bhuvan, a BCA student passionate about coding, AI, technology,
+      futuristic ideas and Marvel-inspired creativity. I enjoy building cool
+      websites, learning programming and exploring new tech.
+    </p>
+  </section>
+
+  <section class="skills-section" id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-container">
+      <div class="skill-card">HTML</div>
+      <div class="skill-card">CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">C Programming</div>
+      <div class="skill-card">C++</div>
+      <div class="skill-card">Python</div>
+    </div>
+  </section>
+
+  <section class="projects-section" id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="project-card">
+      <h3>Marvel Portfolio Website</h3>
+      <p>A stylish Marvel-inspired personal portfolio website.</p>
+      <button onclick="project1()">View Details</button>
+    </div>
+
+    <div class="project-card">
+      <h3>Futuristic Car Website</h3>
+      <p>A futuristic car showcase with glowing design and animations.</p>
+      <button onclick="project2()">View Details</button>
+    </div>
+
+    <div class="project-card">
+      <h3>AI Tools Website</h3>
+      <p>A website for useful AI tools and smart utilities.</p>
+      <button onclick="project3()">View Details</button>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p>Email: yourmail@gmail.com</p>
+    <p>Instagram: @your_username</p>
+
+    <button onclick="contactMessage()">Contact Me</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+
+</html>
